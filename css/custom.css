@@ -1,5 +1,5 @@
 .skillet-jumbotron {
-    background-image: url(/images/lobster_background.jpg);
+    background-image: url(/Urban_Skillet/images/lobster_background.jpg);
 }
 .skillet-jumbotron p {
     margin-bottom: 75px;
@@ -55,13 +55,13 @@
 }
 .image-strip{
     min-height: 100px;
-    background-image: url(/images/fish_background.jpg);
+    background-image: url(/Urban_Skillet/images/fish_background.jpg);
     background-size: cover;
 }
 @media only screen and (min-width: 600px) {
     .image-strip{
         min-height: 250px;
-        background-image: url(/images/fish_background.jpg);
+        background-image: url(/Urban_Skillet/images/fish_background.jpg);
     }
 }
 .thumbnail img{
