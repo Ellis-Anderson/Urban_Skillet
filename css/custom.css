@@ -55,7 +55,7 @@
 }
 .image-strip{
     min-height: 100px;
-    background-image: url(/Urban_Skillet/Images/fish_background.jpg);
+    background-image: url(../Images/fish_background.jpg);
     background-size: cover;
 }
 @media only screen and (min-width: 600px) {
