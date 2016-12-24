@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Urban Skillet - Home Page</title>
+<title>Common Skillet - Contact Us</title>
 
 <!-- Bootstrap -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/custom.css" rel="stylesheet">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/custom.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,44 +23,153 @@
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-		    <a class="navbar-brand" href="index.html">Urban Skillet</a>
+		    <a class="navbar-brand" href="/index.html">Common Skillet</a>
 		</div>
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="defaultNavbar1">
 		    <ul class="nav navbar-nav">
-				<li><a href="About/about.html">About Us</a></li>
-				<li><a href="Restaurants/res-find.html">Find A Restaurant</a></li>
-				<li><a href="Contact/contact.html">Contact Us</a></li>
+				<li><a href="/About/about.html">About Us</a></li>
+				<li><a href="/Restaurants/res-find.html">Find A Restaurant</a></li>
+				<li><a href="/Contact/contact.html">Contact Us</a></li>
 		    </ul>
 		    <ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Log In</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#login-modal">Log In</a></li>
 		    </ul>
 		</div>
 		<!-- /.navbar-collapse -->
 	</div>
 	  <!-- /.container-fluid -->
 </nav>
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header" align="center">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+				</button>
+				<h1>Common Skillet</h1>
+			</div>
 
+            <!-- Begin # DIV Form -->
+            <div id="div-forms">
 
+            	<!-- Begin # Login Form -->
+                <form id="login-form">
+		            <div class="modal-body">
+				    	<div id="div-login-msg">
+                            <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
+                            <span id="text-login-msg">Type your username and password.</span>
+                        </div>
+				    	<input id="login_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
+				    	<input id="login_password" class="form-control" type="password" placeholder="Password" required>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Remember me
+                            </label>
+                        </div>
+        		    </div>
+				    <div class="modal-footer">
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+                        </div>
+				    	<div>
+                            <button id="login_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                            <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
+                        </div>
+				    </div>
+                </form>
+                <!-- End # Login Form -->
 
-<h1>Contact Us</h1>
+                <!-- Begin | Lost Password Form -->
+                <form id="lost-form" style="display:none;">
+    	    		<div class="modal-body">
+		    			<div id="div-lost-msg">
+                            <div id="icon-lost-msg" class="glyphicon glyphicon-chevron-right"></div>
+                            <span id="text-lost-msg">Type your e-mail.</span>
+                        </div>
+		    			<input id="lost_email" class="form-control" type="text" placeholder="E-Mail (type ERROR for error effect)" required>
+            		</div>
+		    		<div class="modal-footer">
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
+                        </div>
+                        <div>
+                            <button id="lost_login_btn" type="button" class="btn btn-link">Log In</button>
+                            <button id="lost_register_btn" type="button" class="btn btn-link">Register</button>
+                        </div>
+		    		</div>
+                </form>
+                <!-- End | Lost Password Form -->
 
+                <!-- Begin | Register Form -->
+                <form id="register-form" style="display:none;">
+            		<div class="modal-body">
+		    			<div id="div-register-msg">
+                            <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+                            <span id="text-register-msg">Register an account.</span>
+                        </div>
+		    			<input id="register_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
+                        <input id="register_email" class="form-control" type="text" placeholder="E-Mail" required>
+                        <input id="register_password" class="form-control" type="password" placeholder="Password" required>
+            		</div>
+		    		<div class="modal-footer">
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
+                        </div>
+                        <div>
+                            <button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
+                            <button id="register_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                        </div>
+		    		</div>
+                </form>
+                <!-- End | Register Form -->
+
+            </div>
+            <!-- End # DIV Form -->
+
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" id="fish-background">
+<div class="container add-margin">
+	<div class="jumbotron res-jumbo">
+		<div class="row text-center">
+			<h1>Contact Us</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center">
+				<p>Want to contact us about starting your own home-restaurant? Care to complement the food or think we're doing something wrong? Find our contact info below!</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-justify">
+				<p><strong>Address:</strong> 1111 Olive dr. Davis CA 95616</p>
+				<p><strong>E-mail:</strong> <a href= "mailto:info@commonskillet.com">info@commonskillet.com</a></p>
+				<p><strong>Phone:</strong> (925) 858-2691</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
 
 
 <div class="container-fluid skillet-footer">
 		<div class="row skillet-footer">
 			<div class="col-md-12 text-center" id="footer-bar">
-				<p><a href="About/about.html">About Us</a> &middot; <a href="Privacy/privacy.html">Privacy Policy</a> &middot; <a href="Terms_of_Service/service.html">Terms of Service</a> &middot; <a href="Careers/careers.html">Careers</a> &middot; <a href="Contact/contact.html">Contact Us</a></p>
+				<p><a href="/About/about.html">About Us</a> &middot; <a href="/Privacy/privacy.html">Privacy Policy</a> &middot; <a href="/Terms_of_Service/service.html">Terms of Service</a> &middot; <a href="/Careers/careers.html">Careers</a> &middot; <a href="/Contact/contact.html">Contact Us</a></p>
 			</div>
 			<div class="col-md-12 text-center">
-				<p>Copyright &copy; 2017 Urban Skillet &middot; All Rights Reserved</p>
+				<p>Copyright &copy; 2017 Common Skillet &middot; All Rights Reserved</p>
 			</div>
 		</div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-1.11.3.min.js"></script>
+<script src="../js/jquery-1.11.3.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/login.js"></script>
 </body>
 </html>

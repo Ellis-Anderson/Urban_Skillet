@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Urban Skillet - Find A Restaurant</title>
+<title>Common Skillet - Find A Restaurant</title>
 
 <!-- Bootstrap -->
-<link href="/Urban_Skillet/css/bootstrap.css" rel="stylesheet">
-<link href="/Urban_Skillet/css/custom.css" rel="stylesheet">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/custom.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,14 +23,14 @@
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-		    <a class="navbar-brand" href="/Urban_Skillet/index.html">Urban Skillet</a>
+		    <a class="navbar-brand" href="/index.html">Common Skillet</a>
 		</div>
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="defaultNavbar1">
 		    <ul class="nav navbar-nav">
-				<li><a href="/Urban_Skillet/About/about.html">About Us</a></li>
-				<li><a href="/Urban_Skillet/Restaurants/res-find.html">Find A Restaurant</a></li>
-				<li><a href="/Urban_Skillet/Contact/contact.html">Contact Us</a></li>
+				<li><a href="/About/about.html">About Us</a></li>
+				<li><a href="/Restaurants/res-find.html">Find A Restaurant</a></li>
+				<li><a href="/Contact/contact.html">Contact Us</a></li>
 		    </ul>
 		    <ul class="nav navbar-nav navbar-right">
 				<li><a href="#" data-toggle="modal" data-target="#login-modal">Log In</a></li>
@@ -47,7 +47,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 				</button>
-				<h1>Urban Skillet</h1>
+				<h1>Common Skillet</h1>
 			</div>
 
             <!-- Begin # DIV Form -->
@@ -132,9 +132,10 @@
 </div>
 
 
-<div class="jumbotron image-strip"></div>
-<div class="container">
-	<div class="jumbotron">
+<!-- <div class="jumbotron image-strip"></div> -->
+<div class="container-fluid" id="charcuterie-background">
+	<div class="container add-margin">
+	<div class="jumbotron res-jumbo">
 		<div class="row text-center">
 			<h1>Find A Restaurant</h1>
 		</div>
@@ -207,21 +208,25 @@
 			</div>
 		</div>
 	</div>
+</div>
+</div>
+<hr>
+<div class="container">
 	<div class="row">
 		<div class="col-md-3">
 			<div class="thumbnail thumb-res">
-				<img src="/Urban_Skillet/Images/tortuga.jpg" alt="Tortuga">
+				<img src="/Images/tortuga.jpg" alt="Tortuga">
 			</div>
 		</div>
 		<div class="container-res">
 			<div class="col-md-7">
 				<a name="garage"></a>
 				<h2>The Garage</h2>
-				<p>This is some cool stuff about the kind of food we serve and the vibe we're going for. I'll write a whole bunch more stuff here too so that people know what's going on and how cool we are. We're making some sick food after all<p>
+				<p>The Garage is a small venue with frequent offerings near central davis. Focusing on fermentation, preservation and unique tastes, The Garage works diligently to present delicious offerings to the adventurous.<p>
 				<p><strong>Hours:</strong> Thursday 5pm-7pm, Saturday 11am-1pm</p>
 			</div>
 			<div class="col-md-2 center-sm">
-				<a href="#" role="button" class="btn btn-primary btn-lg btn-res">Book a Dinner</a>
+				<a href="/Restaurants/the-garage.html" role="button" class="btn btn-primary btn-lg btn-res">Book a Dinner</a>
 			</div>
 		</div>
 	</div>
@@ -229,18 +234,18 @@
 	<div class="row">
 		<div class="col-md-3">
 			<div class="thumbnail thumb-res">
-				<img src="/Urban_Skillet/Images/tortuga.jpg" alt="Tortuga">
+				<img src="/Images/tortuga.jpg" alt="Tortuga">
 			</div>
 		</div>
 		<div class="container-res">
 			<div class="col-md-7">
 				<a name="turtle"></a>
-				<h2>Tortusgus</h2>
-				<p>This is some cool stuff about the kind of food we serve and the vibe we're going for. I'll write a whole bunch more stuff here too so that people know what's going on and how cool we are. We're making some sick food after all<p>
+				<h2>Tortuga 2</h2>
+				<p>At the same venue as Tortuga but with a whole new style, Tortuga 2 focuses on combining delicious food with amazing entertainment. Tortuga 2 offers dinners less frequently, but pairs their small plates with live shows for a combination that can't be beat.<p>
 				<p><strong>Hours:</strong> Thursday 5pm-7pm, Saturday 11am-1pm</p>
 			</div>
 			<div class="col-md-2 center-sm">
-				<a href="#" role="button" class="btn btn-primary btn-lg btn-res">Book a Dinner</a>
+				<a href="/Restaurants/the-garage.html" role="button" class="btn btn-primary btn-lg btn-res">Book a Dinner</a>
 			</div>
 		</div>
 	</div>
@@ -248,19 +253,19 @@
 	<div class="row">
 		<div class="col-md-3">
 			<div class="thumbnail thumb-res">
-				<img src="/Urban_Skillet/Images/tortuga.jpg" alt="Tortuga">
+				<img src="/Images/tortuga.jpg" alt="Tortuga">
 			</div>
 		</div>
 		<div class="container-res">
 			<div class="col-md-7">
 				<a name="rich"></a>
-				<h2>Rich Shit</h2>
-				<p>This is some cool stuff about the kind of food we serve and the vibe we're going for. I'll write a whole bunch more stuff here too so that people know what's going on and how cool we are. We're making some sick food after all<p>
+				<h2>Rich's Riches</h2>
+				<p>A new restaurant in town, Rich's Riches provides a beautiful sit down service for all with some bomb homestyle classics. Come on in from a cold winter's night for some cozy classics done right.<p>
 				<p><strong>Hours:</strong> Thursday 5pm-7pm, Saturday 11am-1pm</p>
 
 			</div>
 			<div class="col-md-2 center-sm">
-				<a href="#" role="button" class="btn btn-primary btn-lg btn-res">Book a Dinner</a>
+				<a href="/Restaurants/the-garage.html" role="button" class="btn btn-primary btn-lg btn-res">Book a Dinner</a>
 			</div>
 		</div>
 	</div>
@@ -271,18 +276,18 @@
 <div class="container-fluid skillet-footer">
 		<div class="row skillet-footer">
 			<div class="col-md-12 text-center" id="footer-bar">
-				<p><a href="/Urban_Skillet/About/about.html">About Us</a> &middot; <a href="/Urban_Skillet/Privacy/privacy.html">Privacy Policy</a> &middot; <a href="/Urban_Skillet/Terms_of_Service/service.html">Terms of Service</a> &middot; <a href="/Urban_Skillet/Careers/careers.html">Careers</a> &middot; <a href="/Urban_Skillet/Contact/contact.html">Contact Us</a></p>
+				<p><a href="/About/about.html">About Us</a> &middot; <a href="/Privacy/privacy.html">Privacy Policy</a> &middot; <a href="/Terms_of_Service/service.html">Terms of Service</a> &middot; <a href="/Careers/careers.html">Careers</a> &middot; <a href="/Contact/contact.html">Contact Us</a></p>
 			</div>
 			<div class="col-md-12 text-center">
-				<p>Copyright &copy; 2017 Urban Skillet &middot; All Rights Reserved</p>
+				<p>Copyright &copy; 2017 Common Skillet &middot; All Rights Reserved</p>
 			</div>
 		</div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="/Urban_Skillet/js/jquery-1.11.3.min.js"></script>
+<script src="../js/jquery-1.11.3.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/Urban_Skillet/js/bootstrap.js"></script>
-<script src="/Urban_Skillet/js/login.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/login.js"></script>
 </body>
 </html>

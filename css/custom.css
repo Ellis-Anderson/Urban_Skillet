@@ -1,5 +1,5 @@
 .skillet-jumbotron {
-    background-image: url("/Urban_Skillet/Images/lobster_background.jpg");
+    background-image: url("../Images/lobster_background.jpg");
 }
 .skillet-jumbotron p {
     margin-bottom: 75px;
@@ -48,21 +48,56 @@
     margin-bottom: 25px;
 }
 .skillet-footer{
-    min-height: 75px;
+    min-height: 85px;
 }
 #footer-bar{
     margin-top: 15px;
 }
 .image-strip{
     min-height: 100px;
-    background-image: url("/Urban_Skillet/Images/fish_background.jpg");
+    background-image: url("../Images/fish_background.jpg");
     background-size: cover;
 }
 @media only screen and (min-width: 600px) {
     .image-strip{
-        max-height: 150px;
-        background-image: url("/Urban_Skillet/Images/fish_background.jpg");
+        min-height: 150px;
+        background-image: url("../Images/fish_background.jpg");
     }
+}
+.res-jumbo{
+    background: rgba(225,225,225,.8);
+}
+#charcuterie-background{
+    background-image: url("../Images/charcuterie_background.jpg");
+    background-size: cover;
+}
+#fish-background{
+    background-image: url("../Images/fish_background.jpg");
+    background-size: cover;
+}
+#produce-background{
+    background-image: url("../Images/produce_background.jpg");
+    background-size: cover;
+}
+#menu{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.menu-thumb{
+    border-radius: 0px;
+    border: 0px;
+}
+.menu-thumb:hover{
+    background-color: rgba(200,200,200,.9);
+}
+.menu-item a{
+    text-decoration: none;
+}
+.desc-res p{
+    margin-top: 20px;
+}
+.add-margin{
+    margin-top: 50px;
 }
 .thumbnail img{
     padding-top: 15px;
@@ -98,7 +133,6 @@
 #login-modal .modal-dialog {
     width: 350px;
 }
-
 #login-modal input[type=text], input[type=password] {
 	margin-top: 10px;
 }
