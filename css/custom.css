@@ -71,9 +71,17 @@
     background-image: url("../Images/charcuterie_background.jpg");
     background-size: cover;
 }
-#fish-background{
-    background-image: url("../Images/fish_background.jpg");
-    background-size: cover;
+@media only screen and (min-width: 768px){
+    #fish-background{
+        background-image: url("../Images/fish_background.jpg");
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 767px){
+    #fish-background{
+        background-image: url("../Images/produce_background.jpg");
+        background-size: cover;
+    }
 }
 #produce-background{
     background-image: url("../Images/produce_background.jpg");
