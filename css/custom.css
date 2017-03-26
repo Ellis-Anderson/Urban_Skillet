@@ -396,5 +396,6 @@
   padding: 15px;
 }
 .user-form {
-  padding: 20px;
+  margin: 20px;
+  width: 80%;
 }
