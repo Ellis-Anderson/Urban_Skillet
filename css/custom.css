@@ -402,17 +402,9 @@
 .well h1{
   font-size: 300%;
 }
-.email{
-  margin: 20px;
-  padding: 20px;
-  width: 300px;
-}
-#email-update{
-  padding: 100px;
-  line-height: 120%;
-}
 .form-group{
   margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-left: 50px;
 }
