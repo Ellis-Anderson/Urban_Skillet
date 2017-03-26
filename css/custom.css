@@ -403,5 +403,6 @@
   font-size: 300%;
 }
 .email{
-  margin: 20px;
+  padding: 20px;
+  width: 100%;
 }
