@@ -452,6 +452,45 @@
             </div>
         </div>
 </div>
+<div class="modal fade" id="bank-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header" align="center">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+				</button>
+				<h3>Add Account</h3>
+			</div>
+			<div id="div-forms">
+				<div class="modal-body">
+	  				<form class="form-horizontal" role="form">
+	    				<fieldset>
+	      					<legend>Account Info</legend>
+	      					<div class="form-group">
+	        					<label class="col-sm-3 control-label" for="account-number">Account Number</label>
+	        					<div class="col-sm-8">
+                      <input type="text" class="form-control" name="account-number" id="account-number" placeholder="Account Number">
+	        					</div>
+	      					</div>
+	      					<div class="form-group">
+	        					<label class="col-sm-3 control-label" for="routing-number">Routing Number</label>
+	        					<div class="col-sm-8">
+	          						<input type="text" class="form-control" name="routing-number" id="routing-number" placeholder="Routing Number">
+	        					</div>
+	      					</div>
+							</div>
+							<div class="form-group">
+							    <div class="text-center">
+							    	<button type="button" class="btn btn-primary btn-lg">Add Account</button>
+							    </div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="modal fade" id="meal-add-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
     <div class="modal-dialog">
 		<div class="modal-content">
@@ -469,7 +508,7 @@
 	      					<div class="form-group">
 	        					<label class="col-sm-3 control-label" for="dinner-description">Dinner Description</label>
 	        					<div class="col-sm-8">
-                      <input type="text" class="form-control" name="diner-description" id="dinner-description" placeholder="Dinner Description">
+                      <input type="text" class="form-control" name="dinner-description" id="dinner-description" placeholder="Dinner Description">
 	        					</div>
 	      					</div>
 	      					<div class="form-group">
