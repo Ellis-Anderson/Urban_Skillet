@@ -395,10 +395,6 @@
 .inset {
   padding: 15px;
 }
-#update_email {
-  padding: 20px;
-  width: 80%;
-}
-#confirm_email {
+.user-form {
   padding: 20px;
 }
