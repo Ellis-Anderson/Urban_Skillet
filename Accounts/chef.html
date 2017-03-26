@@ -147,16 +147,21 @@
                     </li>
                     <li>
                         <a href="#anch1" data-scroll>
-                            <span class="fa fa-anchor solo">Your Profile</span>
+                            <span class="fa fa-anchor solo">Your Restaurant</span>
                         </a>
                     </li>
                     <li>
                         <a href="#anch2" data-scroll>
-                            <span class="fa fa-anchor solo">Restaurant History</span>
+                            <span class="fa fa-anchor solo">Your Dinners</span>
                         </a>
                     </li>
                     <li>
                         <a href="#anch3" data-scroll>
+                            <span class="fa fa-anchor solo">Meal Library</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#anch4" data-scroll>
                             <span class="fa fa-anchor solo">Payment Info</span>
                         </a>
                     </li>
@@ -178,7 +183,41 @@
             <div class="page-content inset" data-spy="scroll" data-target="#spy">
                 <div class="row">
                     <div class="jumbotron text-center" >
-                        <h1>Welcome 'User'!</h1>
+                        <h1>Welcome 'Chef'!</h1>
+                    </div>
+                </div>
+                <div class="col-md-12 well">
+                    <h1><legend id="anch1">Your Profile</legend></h1>
+                    <div class="col-xs-10 col-xs-offset-1">
+                        <div class="container-fluid">
+                          <div class="thumbnail text-left">
+                            <h4>Update Restaurant Info</h4>
+                            <hr>
+                            <div role="form" class=form-horizontal>
+                              <div class="row">
+                                <div class="form-group">
+                                  <div class="col-xs-6 col-xs-offset-1">
+                                    <input id="update_res_name" class="form-control user-form" type="text" placeholder="Old Name" required>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group">
+                                  <div class="col-xs-6 col-xs-offset-1">
+                                    <input id="res_description" class="form-control user-form" type="text" rows="4" placeholder="Old Description" required>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group">
+                                  <div class="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-1">
+                                      <button type="submit" class="btn btn-primary btn-block">Update</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
