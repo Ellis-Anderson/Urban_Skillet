@@ -395,6 +395,10 @@
 .inset {
   padding: 15px;
 }
+.user-form {
+  margin: 20px;
+  width: 100%;
+}
 .well h1{
   font-size: 300%;
 }
