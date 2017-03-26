@@ -403,9 +403,11 @@
   font-size: 300%;
 }
 .email{
+
   padding: 20px;
   width: 80%;
 }
 #email-update{
+  padding: 100px;
   line-height: 120%;
 }
