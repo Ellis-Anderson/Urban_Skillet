@@ -411,6 +411,51 @@
             </div>
         </div>
 </div>
+<div class="modal fade" id="meal-add-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header" align="center">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+				</button>
+				<h3>Add Meal</h3>
+			</div>
+			<div id="div-forms">
+				<div class="modal-body">
+	  				<form class="form-horizontal" role="form">
+	    				<fieldset>
+	      					<legend>Dinner Info</legend>
+	      					<div class="form-group">
+	        					<label class="col-sm-3 control-label" for="dinner-description">Dinner Description</label>
+	        					<div class="col-sm-8">
+                      <input type="text" class="form-control" name="diner-description" id="dinner-description" placeholder="Dinner Description">
+	        					</div>
+	      					</div>
+	      					<div class="form-group">
+	        					<label class="col-sm-3 control-label" for="diner-number">Number of Diners</label>
+	        					<div class="col-sm-8">
+	          						<input type="text" class="form-control" name="diner-number" id="diner-number" placeholder="Number of Diners">
+	        					</div>
+	      					</div>
+                  <div class="form-group">
+	        					<label class="col-sm-3 control-label" for="dinner-price">Dinner Price</label>
+	        					<div class="col-sm-8">
+	          						<input type="text" class="form-control" name="dinner-price" id="dinner-price" placeholder="Dinner Price">
+	        					</div>
+	      					</div>
+							</div>
+							<div class="form-group">
+							    <div class="text-center">
+							    	<button type="button" class="btn btn-primary btn-lg">Add Meal</button>
+							    </div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="modal fade" id="dinner-edit-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
     <div class="modal-dialog">
 		<div class="modal-content">
