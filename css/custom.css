@@ -407,14 +407,5 @@
   margin-bottom: 20px;
 }
 .table{
-  background-color: white !important;
-}
-.table tr{
-  background-color: white !important;
-}
-.table th{
-  background-color: white !important;
-}
-.table td{
-  background-color: white !important;
+  margin-top:20px;
 }
