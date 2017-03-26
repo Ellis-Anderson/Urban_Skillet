@@ -400,5 +400,8 @@
   width: 100%;
 }
 .well h1{
-  font-size: 200%;
+  font-size: 300%;
+}
+.email{
+  margin: 20px;
 }
